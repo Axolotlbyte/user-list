@@ -42,7 +42,7 @@ export default function Home() {
       </div>
 
       {/* user data */}
-      <div className="w-full h-/ flex-shrink-0 lg:w-3/5">
+      <div className="w-full flex-shrink-0 lg:w-3/5">
         <UserInfo current={current} />
       </div>
 

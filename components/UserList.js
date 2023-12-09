@@ -4,7 +4,7 @@ const ListItem = ({ name, username, setCurrent, avatar }) => {
   return (
     <div
       onClick={setCurrent}
-      className="w-full cursor-pointer flex hover:bg-gray-700 hover:bg-opacity-30 items-center justify-between p-3 px-4 border-b border-gray-700"
+      className="w-full cursor-pointer flex hover:bg-gray-700 hover:bg-opacity-30 items-center justify-between p-3 px-4 border-b border-gray-300"
     >
       <div className="flex">
         <div className="relative w-14 h-14 flex overflow-hidden items-center justify-center rounded-full border ">
@@ -58,8 +58,8 @@ const ListItem = ({ name, username, setCurrent, avatar }) => {
 
 export default function UserList({ data, setCurrent, current, loading }) {
   return (
-    <div className="border border-gray-700 relative w-full overflow-hidden backdrop-blur-lg bg-gray-700 bg-opacity-20 h-full rounded-xl">
-      <div className="py-5 px-4 border-b border-gray-700">
+    <div className="border border-gray-300 relative w-full overflow-hidden backdrop-blur-lg bg-gray-700 bg-opacity-20 h-full rounded-xl">
+      <div className="py-5 px-4 border-b border-gray-300">
         <h1 className="text-3xl font-bold">Users</h1>
       </div>
       <div className="w-full h-full lg:overflow-y-scroll">

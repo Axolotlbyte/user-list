@@ -4,7 +4,7 @@ export default function UserInfo({ current }) {
   if (current)
     return (
       <div className="w-full flex flex-col gap-3 lg:gap-5 items-center justify-center h-auto py-5 lg:h-screen bg-gray-900">
-        <div className=" relative flex items-center justify-center w-1/4 bg-black aspect-square rounded-full overflow-hidden ">
+        <div className="relative flex items-center justify-center w-1/4 bg-black aspect-square rounded-full overflow-hidden ">
           <Image
             height={20}
             width={20}
